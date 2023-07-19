@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  db:
+    build: .
+    ports:
+        - 6666:1433
